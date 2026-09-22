@@ -1,0 +1,82 @@
+Create a simple, clear, attractive, and easy-to-understand flowchart for the following problem.
+Problem Statement
+
+Employee Leave – Leave Request
+
+The system should allow an employee to submit a leave request with the required leave details and dates. The request should be sent to the assigned manager for approval or rejection. The system should update the leave status and notify the employee.
+
+Feature Set
+Employee Details
+Manager Details
+Leave Request
+Leave Date
+Approval
+
+Requirements to Include
+Employee Details
+Employee ID
+Employee Name
+Department
+Designation
+Email/Contact
+
+Manager Details
+Manager ID
+Manager Name
+Department
+Manager Email
+
+Leave Request
+Leave Request ID
+Leave Type
+Leave Reason
+Leave Balance
+Number of Leave Days
+
+Leave Date
+Start Date
+End Date
+Total Leave Days
+Date Validation
+Overlapping Leave Check
+
+Approval
+Manager Reviews Request
+Approve or Reject
+Rejection Reason/Comments
+Update Leave Status
+Notify Employee
+
+Flowchart
+
+Create the flowchart using standard flowchart symbols:
+
+Start
+↓
+Employee Login
+↓
+Enter Employee Details
+↓
+Enter Leave Request Details
+↓
+Enter Leave Start Date & End Date
+↓
+Validate Leave Details
+↓
+Are the details valid?
+→ No → Show Error → Correct Details → Validate Again
+→ Yes
+↓
+Check Leave Balance & Overlapping Leave
+↓
+Submit Leave Request
+↓
+Send Request to Manager
+↓
+Manager Reviews Request
+↓
+Approve or Reject?
+→ Reject → Enter Rejection Reason → Update Status as Rejected → Notify Employee
+→ Approve → Update Status as Approved → Update Leave Balance → Notify Employee
+↓
+End

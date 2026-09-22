@@ -1,0 +1,50 @@
+Create a simple, clear, attractive, and easy-to-understand ER (Entity-Relationship) Diagram for the following problem.
+
+1. Problem Statement
+
+Employee Leave – Leave Request
+
+Design an Employee Leave Management System where an employee can submit a leave request with leave details and dates. The request is assigned to a manager, who can approve or reject the request. The system should maintain employee details, manager details, leave requests, leave dates, approval information, and leave history.
+
+2. Feature Set
+Employee Details
+Manager Details
+Leave Request
+Leave Date
+Approval
+
+3. Requirements
+
+Store employee details such as Employee ID, Name, Department, Designation, and Email.
+Store manager details such as Manager ID, Name, Department, and Email.
+An employee can create multiple leave requests.
+Each leave request should have a unique Leave Request ID.
+Store leave type and reason for the leave request.
+Store leave start date and end date.
+Calculate and store the total number of leave days.
+Store the employee's available leave balance.
+Validate leave dates before submitting the request.
+Check for overlapping leave requests.
+Each leave request should be assigned to a manager.
+Manager should be able to approve or reject a leave request.
+Store approval status such as Pending, Approved, or Rejected.
+Store approval date and manager comments.
+A rejection should include a rejection reason.
+Update the employee's leave balance after approval.
+Employee should be able to view the status of their leave request.
+Maintain the history of leave requests and approval actions.
+
+6. ER Diagram Requirements
+
+Create the ER diagram using standard ER notation:
+
+Use rectangles for entities.
+Use ovals or attribute sections for attributes where appropriate.
+Clearly mark Primary Keys (PK).
+Clearly mark Foreign Keys (FK).
+Use relationship lines between entities.
+Show cardinality using 1:1 and 1 notation.
+Clearly distinguish mandatory and optional relationships where appropriate.
+Avoid unnecessary entities or attributes.
+Keep the diagram clean and uncluttered.
+

@@ -1,0 +1,58 @@
+Employee leave - Leave Request
+1. Problem Statement
+
+Develop an Employee Leave Request System that allows
+
+2. Feature Set
+
+Employee Details
+Employee ID
+Employee Name
+Department
+Designation
+Contact/Email
+
+Manager Details
+Manager ID
+Manager Name
+Department
+Email
+
+Leave Request
+Leave Request ID
+Leave Type
+Reason for Leave
+Number of Leave Days
+Leave Balance
+
+Leave Date
+Leave Start Date
+Leave End Date
+Total Leave Days
+Date validation
+
+Approval
+Manager Review
+Approve Leave
+Reject Leave
+Approval/Rejection Comments
+Request Status
+Employee Notification
+
+3. Requirements
+Functional Requirements
+
+Employee should be able to log in and view their details.
+Employee should be able to create a new leave request.
+Employee should select the appropriate leave type.
+Employee should enter the leave start date and end date.
+System should automatically calculate the total number of leave days.
+System should validate the entered leave dates.
+System should check for overlapping leave requests.
+System should submit the request to the assigned manager.
+Manager should be able to view pending leave requests.
+Manager should be able to approve or reject a leave request.
+Manager should provide a reason when rejecting a request.
+System should update the leave request status after approval or rejection.
+Employee should be able to view the current status of their leave request.
+System should maintain the history of leave requests and approvals.
